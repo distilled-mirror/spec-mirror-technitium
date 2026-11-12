@@ -1,0 +1,73 @@
+{
+  "repository": "TechnitiumSoftware/DnsServer",
+  "tag": "v15.6.2",
+  "commit": "0dd592aad21eced4221a9a46204cb1a299972ca0",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+    },
+    {
+      "path": "APIDOCS.md",
+      "sha256": "22520c168e9ee8e04d1646bfb11e6fd8258076f846499db637912f33c4977a39"
+    },
+    {
+      "path": "DnsServerCore/DnsWebService.cs",
+      "sha256": "8273966b65dd96b4ec110c18924bcc273489f08f0a03b4d673c7664e9f274cab"
+    },
+    {
+      "path": "DnsServerCore/WebServiceApi.cs",
+      "sha256": "347c71517f59139787058795d589aca349a3dd2becf278b168b22a2fad08c368"
+    },
+    {
+      "path": "DnsServerCore/WebServiceAppsApi.cs",
+      "sha256": "30934494885f8bbaa78d60098e3d0a3914ad916b699e88051b19d659812e2654"
+    },
+    {
+      "path": "DnsServerCore/WebServiceAuthApi.cs",
+      "sha256": "d7d816323f136dddd8afde751c9374d365b6aed5f990449200b6b32c105cac6b"
+    },
+    {
+      "path": "DnsServerCore/WebServiceClusterApi.cs",
+      "sha256": "ff9655fed022d6c6cae1f67644fdd5c812babceb8c570c25d94156fbfddaf5ad"
+    },
+    {
+      "path": "DnsServerCore/WebServiceDashboardApi.cs",
+      "sha256": "dacc41ea031e988f4a460feba1d88e4b34840e81140e526dc3c7ff127fa2ef31"
+    },
+    {
+      "path": "DnsServerCore/WebServiceDhcpApi.cs",
+      "sha256": "ea0b35d9a563d72b319d002eb29c27a2f5e7a78faa23eb09b92c7793052e99d8"
+    },
+    {
+      "path": "DnsServerCore/WebServiceLogsApi.cs",
+      "sha256": "e6de4ba3bff116c6de41495506989b582ce1eeede880361b90c567d67e08fca3"
+    },
+    {
+      "path": "DnsServerCore/WebServiceOtherZonesApi.cs",
+      "sha256": "58d921d1da208fb67d0779da8b3bec14fb98669036ef70dfada3bbc5134bda2f"
+    },
+    {
+      "path": "DnsServerCore/WebServiceSettingsApi.cs",
+      "sha256": "df06934053eb7d193a376295d3e6a8f28adeeaace31a5148cae21a5ee45aad0d"
+    },
+    {
+      "path": "DnsServerCore/WebServiceZonesApi.cs",
+      "sha256": "a538810baec64b5d88f41f757a36f0ae72261b0c0bf2e65bb51894cc14dc639f"
+    }
+  ],
+  "structure": {
+    "file": "api-structure.json",
+    "sha256": "2064bca8220d8d29fc6a3c033eecf841f6a70551d5fd4b4fddc3bcd1c1b13d5e",
+    "operations": 139,
+    "undocumentedRoutes": 6,
+    "repairedExamples": [
+      "/api/user/session/get",
+      "/api/dashboard/stats/getTop",
+      "/api/dhcp/leases/list",
+      "/api/admin/cluster/state"
+    ],
+    "untypedParameters": 67
+  }
+}
